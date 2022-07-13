@@ -41,8 +41,11 @@ hr{
     border-top: 1px solid #eee;
     margin: 20px 0; */
 }
-#Practice_ptag, a{
+#Practice_div, a{
     color: white ;
     text-transform: capitalize;
-    margin-top: 45%;
+    margin-top: 42%;
+}
+#content_ptagcss::after {
+    content: ".com";
 }
