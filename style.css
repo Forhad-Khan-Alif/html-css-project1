@@ -1,0 +1,48 @@
+body{
+    background-image: url(images/forestbridge.jpg);
+    /* background-repeat: no-repeat; */
+    display: block;
+    font-family: Raleway, sans-serif;
+    min-height: 100%;
+    background-size: cover;
+    animation: opac 0.8s;
+
+}
+/* #middle{
+    color: white !important;
+    margin: 400px;
+    margin-left: 800px;
+    text-align: center;
+} */
+#middle{
+    color: white !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    /* transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%); */
+}
+div{
+    display: block;
+}
+h1{
+    text-transform: uppercase;
+}
+h4{
+    color: white;
+    font-family: Raleway, sans-serif;
+}
+hr{
+    margin: auto;
+    width: 40%;
+    border-color: #9e9e9e !important;
+    /* border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0; */
+}
+#Practice_ptag, a{
+    color: white ;
+    text-transform: capitalize;
+    margin-top: 45%;
+}
